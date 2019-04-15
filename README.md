@@ -1,2 +1,2 @@
-# CPS_SUDOKU
+# SUDOKU
 Trabalho desenvolvido na disciplina de Projeto De  Algoritmo
