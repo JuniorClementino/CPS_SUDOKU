@@ -207,12 +207,12 @@ class backtSimples():
     def get_numero_atribuicao(self):
         return self.numero_atribuicao
 
-    def read(self, sudokuCSP):
+    def ler_sudoku(self, sudokuCSP):
         sudoku = deepcopy(sudokuCSP)
         return sudoku    
 
     def resolver_soduko(self, sudoku):
-        sudoku = self.read(sudoku)
+        sudoku = self.ler_sudoku(sudoku)
         self.backt_simple_recursao(sudoku)
         return sudoku
  #---------------------------Backtracking + verificação adiante-----------------------------#
